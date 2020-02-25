@@ -36,6 +36,7 @@ onMount(() => {
         timeout,
         clickOnTrack
     })
+
     simpleBar.getScrollElement().addEventListener('scroll', e => {
         const st = e.target.scrollTop
 
@@ -56,4 +57,6 @@ onMount(() => {
 })
 </script>
 
-<div bind:this={element} {style} class={clazz}><slot /></div>
+<div bind:this={element} {style} class={clazz}>
+    <slot />
+</div>
