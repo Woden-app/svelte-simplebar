@@ -1,0 +1,32 @@
+{
+  "name": "@woden/svelte-simplebar",
+  "version": "1.0.0",
+  "description": "A Svelte wrapper for SimpleBar",
+  "main": "lib/index.js",
+  "svelte": "src/index.svelte",
+  "module": "lib/index.mjs",
+  "repository": "https://github.com/Woden-app/svelte-simplebar.git",
+  "author": "Woden",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "rollup": "^1.31.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^2.1.1",
+    "rollup-plugin-svelte": "^5.1.1",
+    "svelte": "^3.19.1"
+  },
+  "dependencies": {
+    "simplebar": "^5.1.0"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "files": [
+    "src",
+    "lib"
+  ],
+  "keywords": [
+    "svelte"
+  ]
+}
